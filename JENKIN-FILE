@@ -9,7 +9,7 @@ pipeline {
 		stage('Checkout'){
 			agent any
 			steps{
-				git 'https://github.com/vinod-dot/game-of-life.git'
+				git 'https://github.com/vinod-dot/groovecode/JENKIN-FILE'
 			}
 		}
 		stage('compile'){
